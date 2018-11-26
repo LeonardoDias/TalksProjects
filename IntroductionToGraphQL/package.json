@@ -1,0 +1,27 @@
+{
+  "name": "introductiontographql",
+  "version": "1.0.0",
+  "description": "Public Project used for Conferences",
+  "main": "server.js",
+  "scripts": {
+    "devstart": "nodemon server.js",
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LeonardoDias/TalksProjects.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "NodeJs"
+  ],
+  "author": "Leonardo Dias Conceição",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoDias/TalksProjects/issues"
+  },
+  "homepage": "https://github.com/LeonardoDias/TalksProjects#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
