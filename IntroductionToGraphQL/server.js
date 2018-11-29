@@ -1,5 +1,5 @@
 const { port } = require('./api/config');
-const app = require('./api/app')
+const app = require('./api/app');
 
 app.listen(port, () => {
     console.log('Connected');
